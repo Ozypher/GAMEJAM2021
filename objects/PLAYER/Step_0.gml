@@ -81,3 +81,8 @@ if(place_meeting(x,y,ENEMY)){
 	ENEMY.dead = 1;
 	instance_destroy(self);
 }
+//VENT SLOW
+if (place_meeting(x,y,VENT)){
+	vx*=0.9;
+	vy*=0.9;
+}
