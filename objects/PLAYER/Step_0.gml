@@ -37,3 +37,19 @@ if h == 0 && v == 0 {
 // Change the below to have some collision in it
 x += vx;
 y += vy;
+
+//Facing Code
+if(keyboard_check(vk_down)){
+	image_index = 1;
+}
+if(keyboard_check(vk_up)){
+	image_index = 2;
+}
+if(keyboard_check(vk_right)){
+	image_index = 0;
+	image_xscale = 1;
+}
+if(keyboard_check(vk_left)){
+	image_index = 0;
+	image_xscale =-1;
+}
