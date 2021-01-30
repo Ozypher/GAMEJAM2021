@@ -14,6 +14,7 @@
   ],
   "layers": [
     {"instances":[
+        {"properties":[],"isDnd":false,"objectId":{"name":"TIMEMASTER","path":"objects/TIMEMASTER/TIMEMASTER.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":608.0,"y":192.0,"resourceVersion":"1.0","name":"inst_B8B637B","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"PLAYER","path":"objects/PLAYER/PLAYER.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":288.0,"y":384.0,"resourceVersion":"1.0","name":"inst_1A939D78","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"INTER","path":"objects/INTER/INTER.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":736.0,"y":384.0,"resourceVersion":"1.0","name":"inst_3B991D6C","tags":[],"resourceType":"GMRInstance",},
         {"properties":[],"isDnd":false,"objectId":{"name":"WALLCOL","path":"objects/WALLCOL/WALLCOL.yy",},"inheritCode":false,"hasCreationCode":false,"colour":4294967295,"rotation":0.0,"scaleX":10.9999962,"scaleY":1.0,"imageIndex":0,"imageSpeed":1.0,"inheritedItemId":null,"frozen":false,"ignore":false,"inheritItemSettings":false,"x":544.0,"y":576.0,"resourceVersion":"1.0","name":"inst_58D2D6F3","tags":[],"resourceType":"GMRInstance",},
@@ -53,6 +54,7 @@
     {"name":"inst_248F4478","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1EAAE4EE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_45F56F9F","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_B8B637B","path":"rooms/Room1/Room1.yy",},
   ],
   "inheritCreationOrder": false,
   "sequenceId": null,

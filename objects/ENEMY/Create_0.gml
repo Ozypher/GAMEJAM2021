@@ -6,4 +6,5 @@ enemyspeedy = 0;
 enemymaxspeedx= 3;
 enemymaxspeedy= 3;
 aggrorange = 300;
+dead = 0;
 

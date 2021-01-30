@@ -1,8 +1,8 @@
 //CAMERA CONTROL
 camera_set_view_pos(view_camera[0],(x-window_get_width()/2),(y-window_get_height()/2));
 ///Movement and Collision
-var h = keyboard_check(vk_right) - keyboard_check(vk_left);
-var v = keyboard_check(vk_down) - keyboard_check(vk_up);
+var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));
+var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
 
 var spd = sqrt(vx * vx + vy * vy);
 if h == 0 && v == 0 {
@@ -41,16 +41,16 @@ x += vx;
 y += vy;
 
 //Facing Code
-if(keyboard_check(vk_down)){
+if(keyboard_check(ord("S"))){
 	image_index = 0;
 }
-if(keyboard_check(vk_up)){
+if(keyboard_check(ord("W"))){
 	image_index = 3;
 }
-if(keyboard_check(vk_right)){
+if(keyboard_check(ord("D"))){
 	image_index = 2;
 }
-if(keyboard_check(vk_left)){
+if(keyboard_check(ord("A"))){
 	image_index = 1;
 }
 //Interactable Collisions
@@ -75,3 +75,9 @@ if (distance_to_object(VENT) < 25) {
 
 //COLLISIONS
 move_bounce_solid(false);//I know right?
+
+//DANGER CODE
+if(place_meeting(x,y,ENEMY)){
+	ENEMY.dead = 1;
+	instance_destroy(self);
+}

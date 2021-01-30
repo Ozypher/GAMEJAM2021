@@ -10,6 +10,7 @@
     {"id":{"name":"INTER","path":"objects/INTER/INTER.yy",},"order":1,},
     {"id":{"name":"Interactable","path":"sprites/Interactable/Interactable.yy",},"order":1,},
     {"id":{"name":"BUTTON_QUIT","path":"objects/BUTTON_QUIT/BUTTON_QUIT.yy",},"order":5,},
+    {"id":{"name":"TIMEMASTER","path":"objects/TIMEMASTER/TIMEMASTER.yy",},"order":7,},
     {"id":{"name":"Wall","path":"objects/Wall/Wall.yy",},"order":2,},
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"order":1,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
