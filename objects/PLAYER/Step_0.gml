@@ -57,7 +57,12 @@ if(keyboard_check(vk_left)){
 if(place_meeting(x,y,INTER)){
 	effect_create_below(ef_explosion,INTER.x,INTER.y,1.2,c_green);
 	instance_deactivate_object(INTER);
+	
+	//Adding "INTER" to inventory.
+	ds_list_add(inv, "1x Screwdriver");
 }
+
+
 //COLLISIONS
 move_bounce_solid(false);//I know right?
 
