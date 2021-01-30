@@ -1,5 +1,5 @@
 //CAMERA CONTROL
-camera_set_view_pos(view_camera[0],(x-window_get_width()/2),(y-window_get_height()/2));
+camera_set_view_pos(view_camera[0],(x-camera_get_view_width(0)/2),(y-camera_get_view_height(0)/2));
 ///Movement and Collision
 var h = keyboard_check(ord("D")) - keyboard_check(ord("A"));
 var v = keyboard_check(ord("S")) - keyboard_check(ord("W"));
