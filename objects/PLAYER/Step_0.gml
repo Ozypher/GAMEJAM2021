@@ -63,6 +63,15 @@ if(place_meeting(x,y,INTER)){
 }
 
 
+//Can unlock vent?
+if (distance_to_object(VENT) < 25) {
+	if (ds_list_find_value(inv, 0)) {
+		ventUnlocked = true;
+	}
+} else {
+	ventUnlocked = false;
+}
+
+
 //COLLISIONS
 move_bounce_solid(false);//I know right?
-
