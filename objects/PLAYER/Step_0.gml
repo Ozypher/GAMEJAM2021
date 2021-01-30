@@ -40,16 +40,19 @@ y += vy;
 
 //Facing Code
 if(keyboard_check(vk_down)){
-	image_index = 1;
+	image_index = 0;
 }
 if(keyboard_check(vk_up)){
-	image_index = 2;
+	image_index = 3;
 }
 if(keyboard_check(vk_right)){
-	image_index = 0;
-	image_xscale = 1;
+	image_index = 2;
 }
 if(keyboard_check(vk_left)){
-	image_index = 0;
-	image_xscale =-1;
+	image_index = 1;
+}
+//Interactable Collisions
+if(place_meeting(x,y,INTER)){
+	effect_create_below(ef_explosion,INTER.x,INTER.y,1.2,c_green);
+	instance_deactivate_object(INTER);
 }

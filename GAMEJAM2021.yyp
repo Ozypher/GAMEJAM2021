@@ -1,5 +1,7 @@
 {
   "resources": [
+    {"id":{"name":"INTER","path":"objects/INTER/INTER.yy",},"order":1,},
+    {"id":{"name":"Interactable","path":"sprites/Interactable/Interactable.yy",},"order":1,},
     {"id":{"name":"playerport","path":"sprites/playerport/playerport.yy",},"order":0,},
     {"id":{"name":"PLAYER","path":"objects/PLAYER/PLAYER.yy",},"order":0,},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},"order":0,},
