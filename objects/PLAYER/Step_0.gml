@@ -1,3 +1,5 @@
+//CAMERA CONTROL
+camera_set_view_pos(view_camera[0],(x-window_get_width()/2),(y-window_get_height()/2));
 ///Movement and Collision
 var h = keyboard_check(vk_right) - keyboard_check(vk_left);
 var v = keyboard_check(vk_down) - keyboard_check(vk_up);
@@ -57,4 +59,5 @@ if(place_meeting(x,y,INTER)){
 	instance_deactivate_object(INTER);
 }
 //COLLISIONS
-move_bounce_solid(false);
+move_bounce_solid(false);//I know right?
+
