@@ -1,9 +1,12 @@
 {
   "resources": [
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":4,},
+    {"id":{"name":"VENT","path":"objects/VENT/VENT.yy",},"order":6,},
     {"id":{"name":"ENEMY","path":"objects/ENEMY/ENEMY.yy",},"order":3,},
+    {"id":{"name":"Open_Vent","path":"sprites/Open_Vent/Open_Vent.yy",},"order":9,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":5,},
     {"id":{"name":"Button_Start","path":"sprites/Button_Start/Button_Start.yy",},"order":6,},
+    {"id":{"name":"Closed_Vent","path":"sprites/Closed_Vent/Closed_Vent.yy",},"order":8,},
     {"id":{"name":"INTER","path":"objects/INTER/INTER.yy",},"order":1,},
     {"id":{"name":"Interactable","path":"sprites/Interactable/Interactable.yy",},"order":1,},
     {"id":{"name":"BUTTON_QUIT","path":"objects/BUTTON_QUIT/BUTTON_QUIT.yy",},"order":5,},
