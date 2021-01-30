@@ -1,9 +1,12 @@
 {
   "resources": [
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"order":4,},
+    {"id":{"name":"start_screen_2","path":"sprites/start_screen_2/start_screen_2.yy",},"order":11,},
     {"id":{"name":"VENT","path":"objects/VENT/VENT.yy",},"order":6,},
     {"id":{"name":"ENEMY","path":"objects/ENEMY/ENEMY.yy",},"order":3,},
+    {"id":{"name":"start_screen_3","path":"sprites/start_screen_3/start_screen_3.yy",},"order":12,},
     {"id":{"name":"Open_Vent","path":"sprites/Open_Vent/Open_Vent.yy",},"order":9,},
+    {"id":{"name":"start_screen_4","path":"sprites/start_screen_4/start_screen_4.yy",},"order":13,},
     {"id":{"name":"Sprite5","path":"sprites/Sprite5/Sprite5.yy",},"order":5,},
     {"id":{"name":"Button_Start","path":"sprites/Button_Start/Button_Start.yy",},"order":6,},
     {"id":{"name":"Closed_Vent","path":"sprites/Closed_Vent/Closed_Vent.yy",},"order":8,},
@@ -15,6 +18,7 @@
     {"id":{"name":"Main_Menu","path":"rooms/Main_Menu/Main_Menu.yy",},"order":1,},
     {"id":{"name":"Sprite4","path":"sprites/Sprite4/Sprite4.yy",},"order":3,},
     {"id":{"name":"WALLCOL","path":"objects/WALLCOL/WALLCOL.yy",},"order":2,},
+    {"id":{"name":"start_screen_1","path":"sprites/start_screen_1/start_screen_1.yy",},"order":10,},
     {"id":{"name":"BUTTON_START","path":"objects/BUTTON_START/BUTTON_START.yy",},"order":4,},
     {"id":{"name":"playerport","path":"sprites/playerport/playerport.yy",},"order":0,},
     {"id":{"name":"Button_Quit","path":"sprites/Button_Quit/Button_Quit.yy",},"order":7,},

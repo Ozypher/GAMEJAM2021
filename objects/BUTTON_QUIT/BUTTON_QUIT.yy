@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "Button_Quit",
-    "path": "sprites/Button_Quit/Button_Quit.yy",
+    "name": "start_screen_3",
+    "path": "sprites/start_screen_3/start_screen_3.yy",
   },
   "solid": false,
   "visible": true,
