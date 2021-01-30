@@ -56,3 +56,5 @@ if(place_meeting(x,y,INTER)){
 	effect_create_below(ef_explosion,INTER.x,INTER.y,1.2,c_green);
 	instance_deactivate_object(INTER);
 }
+//COLLISIONS
+move_bounce_solid(false);
